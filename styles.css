@@ -19,8 +19,8 @@ body {
   height: 194px;
   width: 400px;
   position: absolute;
-  left: 150px;
-  top: 35px;
+  right: 60%;
+  top: 5%;
   border-radius: 4px 0px 4px 4px;
   box-shadow: 0 8px 6px -4px grey;
 }
@@ -48,9 +48,9 @@ p {
   height: 275px;
   width: 400px;
   position: absolute;
-  right: 150px;
-  top: 270px;
-  border-radius: 0px 4px 4px 4px;
+  left: 60%;
+  top: 35%;
+  border-radius: 0px 0px 4px 4px;
   box-shadow: 0 8px 6px -4px grey;
 }
 
@@ -73,8 +73,8 @@ p {
   height: 140px;
   width: 400px;
   position: absolute;
-  left: 150px;
-  bottom: 154px;
+  right: 60%;
+  bottom: 15%;
   border-radius: 4px 0px 4px 4px;
   box-shadow: 0 8px 6px -4px grey;
 }
@@ -83,11 +83,10 @@ p {
   height: 140px;
   width: 400px;
   position: absolute;
-  border-radius: 0px 4px 0px 0px;
 }
 
 .vertical {
-  border-left: 6px solid #25608A;
+  border-left: 4px solid #25608A;
   height: 90%;
   position: absolute;
   left: 50%;
@@ -200,6 +199,14 @@ button:hover {
   border-top: 7px solid transparent;
   border-right: 7px solid transparent;
 }
+.top-pen {
+  border-radius: 100%;
+  text-align: center;
+  position: static;
+  width: 4%
+}
+
+
 
 /* @keyframes h1 {
   0% {
