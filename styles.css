@@ -16,7 +16,7 @@ body {
 .top-box {
   background-color: #F5F5F5;
   /* margin: 0 auto; */
-  height: 194px;
+  height: 20.5%;
   width: 400px;
   position: absolute;
   right: 60%;
@@ -45,7 +45,7 @@ p {
 .middle-box {
   background-color: #F5F5F5;
   margin: 0 auto;
-  height: 275px;
+  height: 30%;
   width: 400px;
   position: absolute;
   left: 60%;
@@ -70,7 +70,7 @@ p {
 
 .bottom-box {
   background-color: #F5F5F5;
-  height: 140px;
+  height: 15%;
   width: 400px;
   position: absolute;
   right: 60%;
@@ -125,8 +125,8 @@ aside {
 
 .middle-date {
   position: absolute;
-  left: -226px;
-  bottom: 210px;
+  left: -56.5%;
+  bottom: 76.5%;
   display: inline-block;
   font-size: 14px;
   padding: 10px;
@@ -149,7 +149,7 @@ form {
   padding: 7px 14px;
   border-radius: 2px;
   border-style: none;
-  left: 20px;
+  left: 5%;
 }
 
 .middle-button {
@@ -160,17 +160,17 @@ form {
   padding: 7px 14px;
   border-radius: 2px;
   border-style: none;
-  bottom: 15px;
-  left: 20px;
+  bottom: 5%;
+  left: 5%;
 }
 button:hover {
   background-color: #8FA9BA;
 }
 .top-box::after {
-  bottom: 140px;
+  bottom: 70%;
   content: '';
   display: inline-block;
-  left: 400px;
+  left: 100%;
   position: absolute;
   border-left: 12px solid #F5F5F5;
   border-bottom: 7px solid transparent;
@@ -178,10 +178,10 @@ button:hover {
   border-right: 7px solid transparent;
 }
 .middle-box:after {
-  bottom: 220px;
+  bottom: 80%;
   content: '';
   display: inline-block;
-  left: -19px;
+  right: 100%;
   position: absolute;
   border-left: 7px solid transparent;
   border-bottom: 7px solid transparent;
@@ -189,10 +189,10 @@ button:hover {
   border-right: 12px solid #F5F5F5;
 }
 .bottom-box::after {
-  bottom: 85px;
+  bottom: 63%;
   content: '';
   display: inline-block;
-  left: 400px;
+  left: 100%;
   position: absolute;
   border-left: 12px solid #F5F5F5;
   border-bottom: 7px solid transparent;
@@ -201,35 +201,34 @@ button:hover {
 }
 .top-pen {
   border-radius: 100%;
-  width: 2.5%;
+  width: 2%;
   text-align: center;
   display: inline-block;
   position: absolute;
-  left: 48.9%;
+  left: 49.15%;
   top: 6.5%;
   z-index: 1;
 }
 .middle-pen {
   border-radius: 100%;
-  width: 2.5%;
+  width: 2%;
   text-align: center;
   display: inline-block;
   position: absolute;
-  left: 48.9%;
+  left: 49.15%;
   top: 36%;
   z-index: 1;
 }
 .bottom-pen {
   border-radius: 100%;
-  width: 2.5%;
+  width: 2%;
   text-align: center;
   display: inline-block;
   position: absolute;
-  left: 48.9%;
+  left: 49.15%;
   top: 71%;
   z-index: 1;
 }
-
 
 
 
