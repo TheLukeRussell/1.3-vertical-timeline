@@ -22,6 +22,7 @@ body {
   left: 150px;
   top: 35px;
   border-radius: 4px 0px 4px 4px;
+  box-shadow: 0 8px 6px -4px grey;
 }
 
 h1 {
@@ -50,6 +51,7 @@ p {
   right: 150px;
   top: 270px;
   border-radius: 0px 4px 4px 4px;
+  box-shadow: 0 8px 6px -4px grey;
 }
 
 .card-title {
@@ -74,6 +76,7 @@ p {
   left: 150px;
   bottom: 154px;
   border-radius: 4px 0px 4px 4px;
+  box-shadow: 0 8px 6px -4px grey;
 }
 
 .dog {
@@ -93,7 +96,7 @@ p {
 }
 
 h2 {
-  color: white;
+  color: #F5F5F5;
   font-family: helvetica;
   font-weight: normal;
   position: relative;
@@ -158,9 +161,44 @@ form {
   padding: 7px 14px;
   border-radius: 2px;
   border-style: none;
-  z-index: 4;
   bottom: 15px;
   left: 20px;
+}
+button:hover {
+  background-color: #8FA9BA;
+}
+.top-box::after {
+  bottom: 140px;
+  content: '';
+  display: inline-block;
+  left: 400px;
+  position: absolute;
+  border-left: 12px solid #F5F5F5;
+  border-bottom: 7px solid transparent;
+  border-top: 7px solid transparent;
+  border-right: 7px solid transparent;
+}
+.middle-box:after {
+  bottom: 220px;
+  content: '';
+  display: inline-block;
+  left: -19px;
+  position: absolute;
+  border-left: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-top: 7px solid transparent;
+  border-right: 12px solid #F5F5F5;
+}
+.bottom-box::after {
+  bottom: 85px;
+  content: '';
+  display: inline-block;
+  left: 400px;
+  position: absolute;
+  border-left: 12px solid #F5F5F5;
+  border-bottom: 7px solid transparent;
+  border-top: 7px solid transparent;
+  border-right: 7px solid transparent;
 }
 
 /* @keyframes h1 {
